@@ -1,0 +1,149 @@
+﻿.footer {
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 103px;
+  .top {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    .logo_icon {
+      width: 80px;
+      height: 98px;
+    }
+    nav {
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        h1 {
+          font-family: "History";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 160%;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+          color: #111113;
+        }
+        li {
+          list-style: none;
+          font-family: "Apercu Pro";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 20px;
+          display: flex;
+          align-items: center;
+          letter-spacing: 0.01em;
+          font-feature-settings: "salt" on, "ss01" on;
+          color: #666666;
+          cursor: pointer;
+        }
+      }
+    }
+    .last {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      justify-content: center;
+      h1 {
+        font-family: "History";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 160%;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #111113;
+      }
+      .input {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        input {
+          border: 0.8px solid #e5e5e5;
+          padding: 10px 16px;
+        }
+        button {
+          right: 0px;
+          background: none;
+          border: none;
+          cursor: pointer;
+        }
+      }
+      p {
+        font-family: "Apercu Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        font-feature-settings: "salt" on, "ss01" on;
+        color: #666666;
+        span {
+          text-decoration: underline;
+          color: #9e9789;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  hr {
+    margin-top: 46px;
+    margin-bottom: 24px;
+    border: 1px solid #f2f2f2;
+  }
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    span {
+      font-family: "Apercu Pro";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 16px;
+      display: flex;
+      align-items: center;
+      font-feature-settings: "salt" on, "ss01" on;
+      color: #999999;
+    }
+    .icon_block {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      .tag {
+        font-family: "Apercu Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        font-feature-settings: "salt" on, "ss01" on;
+        color: #999999;
+        text-decoration: none;
+      }
+      .icons {
+        gap: 16px;
+        display: flex;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer {
+    .top {
+      display: flex;
+      flex-direction: column;
+    }
+    .bottom {
+      .icon_block {
+        .tag {
+          display: none;
+        }
+      }
+    }
+  }
+}

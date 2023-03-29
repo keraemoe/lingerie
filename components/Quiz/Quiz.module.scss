@@ -1,0 +1,68 @@
+﻿.quiz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 148px;
+  img {
+    width: 100%;
+  }
+  .under_quiz {
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    gap: 100px;
+    padding-top: 93px;
+    .under {
+      display: flex;
+      gap: 40px;
+      align-items: center;
+      img {
+        width: 27px;
+        height: 27px;
+      }
+      .tags {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: start;
+        h1 {
+          font-family: "Apercu Pro";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 22px;
+          display: flex;
+          align-items: center;
+          text-transform: uppercase;
+          font-feature-settings: "salt" on, "ss01" on;
+          color: #111113;
+        }
+        p {
+          font-family: "Apercu Pro";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 20px;
+          display: flex;
+          align-items: center;
+          letter-spacing: 0.01em;
+          font-feature-settings: "salt" on, "ss01" on;
+          color: #666666;
+        }
+        span {
+          font-family: "Apercu Pro";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 20px;
+          display: flex;
+          align-items: center;
+          letter-spacing: 0.01em;
+          font-feature-settings: "salt" on, "ss01" on;
+          color: #111113;
+        }
+      }
+    }
+  }
+}

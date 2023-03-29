@@ -1,3 +1,9 @@
+import Comfortable from "@/components/Comfortable/Comfortable";
+import Hero from "@/components/Hero/Hero";
+import Looks from "@/components/Looks/Looks";
+import ProductSection from "@/components/ProductSection/ProductSection";
+import Quiz from "@/components/Quiz/Quiz";
+import ShopSection from "@/components/ShopSection/ShopSection";
 import Head from "next/head";
 
 export default function Home() {
@@ -9,6 +15,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/static/favicon.ico" />
       </Head>
+      <Hero />
+      <ProductSection />
+      <ShopSection />
+      <Quiz />
+      <Comfortable />
+      <Looks />
     </>
   );
 }

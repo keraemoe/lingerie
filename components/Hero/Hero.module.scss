@@ -1,0 +1,127 @@
+﻿.hero_container {
+  max-width: 95%;
+  margin: 0 auto;
+  padding-top: 24px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .tag {
+    position: absolute;
+    z-index: 1;
+    padding-left: 107px;
+    h1 {
+      font-family: "History Pro";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 64px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.01em;
+      color: #111113;
+    }
+    p {
+      font-family: "Apercu Pro";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      display: flex;
+      align-items: center;
+      font-feature-settings: "salt" on, "ss01" on;
+      color: #666666;
+      padding-top: 24px;
+    }
+    .btns {
+      display: flex;
+      gap: 14px;
+      padding-top: 48px;
+      button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 18px 32px;
+        gap: 12px;
+        width: 165px;
+        height: 56px;
+        background: #000000;
+        border: none;
+        font-family: "Apercu Pro";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.01em;
+        font-feature-settings: "salt" on, "ss01" on;
+        color: #ffffff;
+        cursor: pointer;
+      }
+      button:nth-of-type(2) {
+        background: none;
+        border: 1px solid #000000;
+        font-family: "Apercu Pro";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.01em;
+        font-feature-settings: "salt" on, "ss01" on;
+        color: #393939;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hero_container {
+    .tag {
+      padding-left: 60px;
+      h1 {
+        font-size: 40px;
+      }
+      p {
+        padding-top: 12px;
+      }
+      .btns {
+        padding-top: 12px;
+        button {
+          width: 100px;
+          height: 40px;
+          line-height: 14px;
+          padding: 18px 4px;
+        }
+        button:nth-of-type(2) {
+          line-height: 14px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero_container {
+    .tag {
+      padding-left: 35px;
+      h1 {
+        font-size: 35px;
+        line-height: 40px;
+      }
+      p {
+        font-size: 15px;
+      }
+      .btns {
+        button {
+          width: 100px;
+          height: 40px;
+          line-height: 14px;
+          padding: 18px 4px;
+        }
+        button:nth-of-type(2) {
+          line-height: 14px;
+        }
+      }
+    }
+  }
+}

@@ -1,10 +1,11 @@
-﻿import React from 'react';
+﻿import Catalog from '@/components/Catalog/Catalog';
+import React from 'react';
 
 const index = () => {
     return (
-        <div>
-
-        </div>
+        <>
+            <Catalog />
+        </>
     );
 };
 

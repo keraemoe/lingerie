@@ -1,0 +1,66 @@
+﻿.product_container {
+  max-width: 95%;
+  margin: 0 auto;
+  padding-top: 112px;
+  h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .product_cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    nav {
+      padding-top: 24px;
+      ul {
+        display: flex;
+        gap: 33px;
+        button {
+          background: none;
+          border: none;
+          cursor: pointer;
+        }
+      }
+    }
+    .cards {
+      display: flex;
+      gap: 24px;
+      padding-top: 54px;
+      flex-wrap: wrap;
+      justify-content: center;
+      .card {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        img {
+          align-items: center;
+          cursor: pointer;
+        }
+        .under_card {
+          padding-top: 24px;
+          h1 {
+            font-family: "History Pro";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 32px;
+            letter-spacing: 0.01em;
+            color: #000000;
+          }
+          p {
+            padding-top: 8px;
+            font-family: "Apercu Pro";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+            font-feature-settings: "salt" on, "ss01" on;
+            color: #929292;
+          }
+        }
+      }
+    }
+  }
+}
