@@ -1,100 +1,107 @@
-﻿.top_header {
-  background: #111113;
-  height: 32px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 37px 0 37px;
-  .left {
+﻿.header_container {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 50;
+  .top_header {
+    background: #111113;
+    height: 32px;
     display: flex;
-    gap: 25px;
-    a {
-      font-family: "Apercu Pro";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 12px;
-      line-height: 16px;
-      display: flex;
-      align-items: center;
-      font-feature-settings: "salt" on, "ss01" on;
-      color: #ffffff;
-    }
-    h1 {
-      font-family: "Apercu Pro";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 12px;
-      line-height: 16px;
-      display: flex;
-      align-items: center;
-      font-feature-settings: "salt" on, "ss01" on;
-      color: #ffffff;
-    }
-  }
-  .center {
-    h1 {
-      font-family: "Apercu Pro";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 12px;
-      line-height: 16px;
-      display: flex;
-      align-items: center;
-      font-feature-settings: "salt" on, "ss01" on;
-      color: #ffffff;
-    }
-  }
-  .right {
-    h1 {
-      font-family: "Apercu Pro";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 12px;
-      line-height: 16px;
-      display: flex;
-      align-items: center;
-      font-feature-settings: "salt" on, "ss01" on;
-      color: #ffffff;
-      cursor: pointer;
-    }
-  }
-}
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 31px 0 31px;
-  height: 80px;
-  gap: 20px;
-  .search_left {
-    display: none;
-  }
-  .logo {
+    justify-content: space-between;
     align-items: center;
-    display: flex;
-    flex-direction: row;
-    img {
-      height: 40px;
-      cursor: pointer;
+    padding: 0 37px 0 37px;
+    .left {
+      display: flex;
+      gap: 25px;
+      a {
+        font-family: "Apercu Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        font-feature-settings: "salt" on, "ss01" on;
+        color: #ffffff;
+      }
+      h1 {
+        font-family: "Apercu Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        font-feature-settings: "salt" on, "ss01" on;
+        color: #ffffff;
+      }
+    }
+    .center {
+      h1 {
+        font-family: "Apercu Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        font-feature-settings: "salt" on, "ss01" on;
+        color: #ffffff;
+      }
+    }
+    .right {
+      h1 {
+        font-family: "Apercu Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        font-feature-settings: "salt" on, "ss01" on;
+        color: #ffffff;
+        cursor: pointer;
+      }
     }
   }
-  ul {
+  .header {
     display: flex;
-    gap: 48px;
+    justify-content: space-between;
     align-items: center;
-    li {
-      list-style: none;
-      cursor: pointer;
-      font-family: "History";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 11px;
-      line-height: 160%;
-      display: flex;
+    padding: 0 31px 0 31px;
+    height: 80px;
+    gap: 20px;
+    background: #ffffff;
+    .search_left {
+      display: none;
+    }
+    .logo {
       align-items: center;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: #111113;
+      display: flex;
+      flex-direction: row;
+      img {
+        height: 40px;
+        cursor: pointer;
+      }
+    }
+    ul {
+      display: flex;
+      gap: 48px;
+      align-items: center;
+      li {
+        list-style: none;
+        cursor: pointer;
+        font-family: "History";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 160%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #111113;
+      }
     }
   }
 }
